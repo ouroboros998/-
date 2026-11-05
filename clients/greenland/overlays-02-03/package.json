@@ -1,0 +1,16 @@
+{
+  "name": "greenland-overlays-02-03",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port=3100",
+    "render02": "remotion render src/index.ts Overlay02 out/greenland02-titles-captions.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png --port=3123",
+    "render03": "remotion render src/index.ts Overlay03 out/greenland03-titles-captions.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png --port=3123"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "remotion": "4.0.484",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": { "typescript": "5.6.3", "@types/react": "18.3.12" }
+}
