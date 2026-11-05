@@ -1,3 +1,4 @@
 out/
+!vo/*.wav
 node_modules/
 public/fonts/*.otf
